@@ -1,0 +1,11 @@
+version: '2'
+services:
+  webserver:
+    build:
+      context: ./docker
+    image: easy-web-server:latest
+    container_name: webserver.internal
+    volumes:
+      - "$PWD:/var/www"
+    ports:
+      - "80:80"
