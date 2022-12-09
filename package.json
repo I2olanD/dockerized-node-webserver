@@ -10,6 +10,6 @@
     "run-webserver": "docker run -p 10:80 easy-node-webserver"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
